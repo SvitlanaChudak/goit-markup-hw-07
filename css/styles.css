@@ -1,4 +1,4 @@
-:root {
+/* :root {
     --primary-text-color: #757575;
     --title-text-color: #212121;
     --brand-color-blue: #2196F3;
@@ -13,19 +13,19 @@
     --icons-color: #AFB1B8;
     --main-font: Roboto, sans-serif;
     --secondary-font: Raleway, sans-serif;
-}
+} */
 
-body {
+/* body {
     color: var(--primary-text-color);
     background-color: var(--white-color);
     font-family: var(--main-font);
     font-size: 14px;
     letter-spacing: 0.03em;
-}
+} */
 
 /* ---------------RESET STYLES--------------- */
 
-.link, .logo {
+/* .link, .logo {
     text-decoration: none;
     color: inherit;
 }
@@ -44,11 +44,11 @@ h5,
 h6,
 p {
     margin: 0;
-}
+} */
 
 /* ---------------BASE STYLES--------------- */
 
-.container {
+/* .container {
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
@@ -67,7 +67,7 @@ img {
 
 address {
     font-style: normal;
-}
+} */
 
 /* .section__title {
     margin-bottom: 50px;
@@ -79,7 +79,7 @@ address {
 
 /* ---------------LOGO--------------- */
 
-.logo {
+/* .logo {
     font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 26px;
@@ -99,11 +99,11 @@ address {
 
 .logo>.color {
     color: var(--brand-color-blue);
-}
+} */
 
 /* ---------------HEADER--------------- */
 
-.header__container {
+/* .header__container {
     display: flex;
     align-items: center;
 }
@@ -123,37 +123,37 @@ address {
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.nav__link {
+/* .nav__link {
     padding-top: 32px;
     padding-bottom: 32px;
     color: var(--title-text-color);
-}
+} */
 
-.nav__list {
+/* .nav__list {
     display: flex;
 }
 
 .nav__link:hover, .nav__link:focus, .nav__link:active, .header__link:hover, .header__link:focus {
     color: var(--brand-color-blue);
-}
+} */
 
-.header__contacts {
+/* .header__contacts {
     display: flex;
     margin-left: auto;
     align-items: center;
-}
+} */
 
-.nav__item:not(:last-child) {
+/* .nav__item:not(:last-child) {
     margin-right: 50px;
-}
+} */
 
-.header__email {
+/* .header__email {
     margin-right: 50px;
-}
+} */
 
-.active {
+/* .active {
     color: var(--brand-color-blue);
 }
 
@@ -170,9 +170,9 @@ width: 100%;
 height: 4px;
 background-color: var(--brand-color-blue);
 border-radius: 2px;
-}
+} */
 
-.email-icon {
+/* .email-icon {
     width: 16px;
     height: 12px;
     fill: currentColor;
@@ -190,11 +190,11 @@ border-radius: 2px;
 
 .header__icon:hover, .header__icon:focus {
     fill: var(--brand-color-blue);
-}
+} */
 
 /* ---------------HERO SECTION--------------- */
 
-.hero {
+/* .hero {
     padding-top: 200px;
     padding-bottom: 200px;
     text-align: center;
@@ -219,9 +219,9 @@ border-radius: 2px;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--white-color);
-}
+} */
 
-.hero__btn {
+/* .hero__btn {
     display: inline-block;
     min-width: 200px;
     margin-left: auto;
@@ -251,11 +251,11 @@ border-radius: 2px;
 .hero__btn:hover,
 .hero__btn:focus {
     background-color: var(--button-hover-focus-color);
-}
+} */
 
 /* ---------------MODAL WINDOW--------------- */
 
-.backdrop {
+/* .backdrop {
     position: fixed;
     width: 100%;
     height: 100%;
@@ -281,9 +281,9 @@ border-radius: 2px;
     opacity: 1;
     transform: translate(-50%, -50%) scale(1);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.close-btn {
+/* .close-btn {
     position: absolute;
     top: 8px;
     right: 8px;
@@ -303,15 +303,15 @@ border-radius: 2px;
 
 .close-btn:hover, .close-btn:focus {
     color: var(--brand-color-blue);
-}
+} */
 
-.close-symbol {
+/* .close-symbol {
     width: 11px;
     height: 11px;
     fill: currentColor;
-}
+} */
 
-.backdrop.is-hidden {
+/* .backdrop.is-hidden {
     visibility: hidden;
     pointer-events: none;
     opacity: 0;
@@ -321,11 +321,11 @@ border-radius: 2px;
 .backdrop.is-hidden .modal {
     opacity: 0;
     transform: translate(-50%, -50%) scale(0.7);
-}
+} */
 
 /* -------------------MODAL FORM------------------- */
 
-.form {
+/* .form {
     padding: 40px;
 }
 
@@ -436,9 +436,9 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .agreement__link {
     text-underline-position: under;
     color: var(--brand-color-blue);
-}
+} */
 
-.form__btn {
+/* .form__btn {
     width: 200px;
     height: 50px;
     background-color: var(--brand-color-blue);
@@ -461,23 +461,23 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .form__btn:hover, .form__btn:focus {
     background-color: var(--button-hover-focus-color);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-}
+} */
 
 /* ---------------BENEFITS SECTION--------------- */
 
-.benefits__list {
+/* .benefits__list {
     display: flex;
     gap: 30px;
-}
+} */
 
-.benefits__title,
+/* .benefits__title,
 .section__title,
 .portfolio__title,
 .team__title {
     color: var(--title-text-color);
-}
+} */
 
-.benefits__title {
+/* .benefits__title {
     margin-top: 30px;
     margin-bottom: 10px;
     font-weight: 700;
@@ -512,19 +512,19 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .benefit__icon {
     width: 70px;
     height: 70px;
-}
+} */
 
 /* ---------------ABOUT SECTION--------------- */
 
-.section__title {
+/* .section__title {
     margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-}
+} */
 
-.about {
+/* .about {
     padding-top: 0;
     padding-bottom: 94px;
 }
@@ -557,11 +557,11 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .about__list:not(:last-child),
 .team__list:not(:last-child) {
     margin-right: 30px;
-}
+} */
 
 /* ---------------TEAM SECTION--------------- */
 
-.team {
+/* .team {
     background-color: var(--light-background-color);
 }
 
@@ -623,10 +623,10 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .social__link:focus {
     color: var(--white-color);
     background-color: var(--brand-color-blue);
-}
+} */
 
 /* ---------------CLIENTS SECTION--------------- */
-.logo__list {
+/* .logo__list {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -657,11 +657,11 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .clients__link:focus {
     color: var(--brand-color-blue);
     border-color: var(--brand-color-blue);
-}
+} */
 
 /* ---------------PORTFOLIO SECTION--------------- */
 
-.portfolio-button {
+/* .portfolio__button {
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -686,24 +686,24 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-bottom: 50px;
 }
 
-.btn-item:not(:last-child) {
+.btn__item:not(:last-child) {
     margin-right: 8px;
 }
 
-.btn-item>.active {
+.btn__item>.active {
     color: var(--white-color);
     background-color: var(--brand-color-blue);
 }
 
-.portfolio-button:focus,
-.portfolio-button:hover,
-.portfolio-button:active {
+.portfolio__button:focus,
+.portfolio__button:hover,
+.portfolio__button:active {
     color: var(--white-color);
     background-color: var(--brand-color-blue);
     box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
-}
+} */
 
-.portfolio__list {
+/* .portfolio__list {
     display: flex;
     flex-wrap: wrap;
     margin-right: -30px;
@@ -777,27 +777,27 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .portfolio__link:hover .img__overlay, .portfolio__link:focus .img__overlay {
     transform: translateY(0);
-}
+} */
 
 
 /* ---------------FOOTER--------------- */
 
-.footer {
+/* .footer {
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: var(--dark-background-color);
     
-}
+} */
 
-.contacts__address {
+/* .contacts__address {
     margin-top: 20px;
 }
 
 .contacts__item:not(:last-child) {
     margin-bottom: 9px;
-}
+} */
 
-.contacts__link {
+/* .contacts__link {
     font-style: normal;
     line-height: 1.71;
     transition-property: color;
@@ -816,19 +816,19 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .contacts__link:hover, .contacts__link:focus {
     color: var(--brand-color-blue);
-}
+} */
 
-.footer__container {
+/* .footer__container {
     display: flex;
     justify-content: flex-start;
     align-items: baseline;
-}
+} */
 
-.footer__socials {
+/* .footer__socials {
     margin-left: 70px;
-}
+} */
 
-.socials__call, .subscribe__call {
+/* .socials__call, .subscribe__call {
     font: var(--main-font);
     font-weight: 700;
     line-height: 1.14;
@@ -865,13 +865,13 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .socials__link:hover, .socials__link:focus {
     background-color: var(--brand-color-blue);
-}
+} */
 
-.subscribe__mailing {
+/* .subscribe__mailing {
     margin-left: auto;
-}
+} */
 
-.email__input {
+/* .email__input {
     color: var(--primary-text-color);
     margin-right: 12px;
     width: 358px;
@@ -894,9 +894,9 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .subscribe__form {
     display: flex;
-}
+} */
 
-.subscribe__btn {
+/* .subscribe__btn {
     width: 200px;
     height: 50px;
     border-color: transparent;
@@ -923,12 +923,12 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .subscribe__btn:hover, .subscribe__btn:focus {
     background-color: var(--button-hover-focus-color);
     box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.15);
-}
+} */
 
 
 /* ---------------HIDE TITLES--------------- */
 
-.visually-hidden {
+/* .visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -940,6 +940,6 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-}
+} */
 
 

@@ -1,0 +1,33 @@
+.about {
+    padding-top: 0;
+    padding-bottom: 94px;
+}
+
+.about__desc {
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--white-color);
+    background-color: rgba(47, 48, 58, 0.8);
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+}
+
+.about__item {
+    position: relative;
+}
+
+.about__list {
+    display: flex;
+    justify-content: space-between;
+
+    &:not(:last-child) {
+            margin-right: 30px;
+        }
+}
+

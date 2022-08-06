@@ -1,0 +1,166 @@
+// Hero button
+.hero__btn {
+    display: inline-block;
+    min-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding: 10px 32px;
+    text-align: center;
+    color: var(--white-color);
+    background-color: var(--brand-color-blue);
+    cursor: pointer;
+    border: none;
+    outline: transparent;
+    border-radius: 4px;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover, &:focus {
+    background-color: var(--button-hover-focus-color);
+}
+}
+
+
+// Form close button x
+.close-btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 30px;
+    height: 30px;
+    padding-top: 5px;
+    padding-right: 7px;
+    border-radius: 50%;
+    color: var(--brand-color-black);
+    background-color: transparent;
+    border-color: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover, &:focus {
+    color: var(--brand-color-blue);
+}
+}
+
+.close-symbol {
+    width: 11px;
+    height: 11px;
+    fill: currentColor;
+}
+
+
+// Form send button
+.form__btn {
+    width: 200px;
+    height: 50px;
+    background-color: var(--brand-color-blue);
+    color: var(--white-color);
+    padding: 10px 52px;
+    font-family: inherit;
+    font-weight: 700;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: transparent;
+    transition-property: background-color, box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover, &:focus {
+    background-color: var(--button-hover-focus-color);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    }
+}
+
+
+
+
+// Portfolio buttons
+.portfolio__button {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+    background-color: var(--light-background-color);
+    border: none;
+    outline: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 6px 22px;
+    transition-property: color, background-color, box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:focus, &:hover, &:active {
+        color: var(--white-color);
+        background-color: var(--brand-color-blue);
+        box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
+    }
+}
+
+.btn__list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.btn__item:not(:last-child) {
+    margin-right: 8px;
+}
+
+.btn__item>.active {
+    color: var(--white-color);
+    background-color: var(--brand-color-blue);
+}
+
+
+
+
+// Footer subscribe button
+.subscribe__btn {
+    width: 200px;
+    height: 50px;
+    border-color: transparent;
+    border-radius: 4px;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: var(--white-color);
+    background-color: var(--brand-color-blue);
+    padding: 10px 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    outline: transparent;
+    cursor: pointer;
+    transition-property: background-color, box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover, &:focus {
+        background-color: var(--button-hover-focus-color);
+        box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.15);
+    }
+}
+
+

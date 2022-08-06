@@ -18,6 +18,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="./css/main.min.css" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -35,7 +36,8 @@
               <a class="link nav__link" href="./portfolio.html">Портфоліо</a>
             </li>
             <li class="nav__item">
-              <a class="link nav__link" href="#">Контакти</a></li>
+              <a class="link nav__link" href="#">Контакти</a>
+            </li>
           </ul>
         </nav>
         <ul class="list header__contacts">
@@ -78,9 +80,7 @@
                 </svg>
               </button>
               <form class="form">
-                <strong class="form__title"
-                  >Залиште свої дані, ми вам передзвонимо</strong
-                >
+                <strong class="form__title">Залиште свої дані, ми вам передзвонимо</strong>
                 <div class="form__group">
                   <label class="form__wrap">
                     <span class="form__label">Ім'я</span>
@@ -114,9 +114,17 @@
                   </label>
                 </div>
                 <label class="form__agreement">
-                  <input class="checkbox__register visually-hidden" type="checkbox" name="agreement" required/>
+                  <input
+                    class="checkbox__register visually-hidden"
+                    type="checkbox"
+                    name="agreement"
+                    required
+                  />
                   <svg class="checkbox__icon" width="16" height="15">
-                    <use class="checkbox__icon--uncheck" href="./images/icons.svg#icon-uncheck"></use>
+                    <use
+                      class="checkbox__icon--uncheck"
+                      href="./images/icons.svg#icon-uncheck"
+                    ></use>
                     <use class="checkbox__icon--check" href="./images/icons.svg#icon-check"></use>
                   </svg>
                   <span class="agreement__text"
@@ -613,7 +621,9 @@
                 >
               </li>
               <li class="contacts__item">
-                <a class="link contacts__link footer__tel" href="tel:+380991111111">+38 099 111 11 11</a>
+                <a class="link contacts__link footer__tel" href="tel:+380991111111"
+                  >+38 099 111 11 11</a
+                >
               </li>
             </ul>
           </address>
@@ -681,7 +691,9 @@
             <input class="email__input" type="email" name="subscribe" placeholder="E-mail" />
             <button class="btn subscribe__btn" type="submit">
               Підписатися
-              <svg class="subscribe__icon" width="24px" height="24px"><use href="./images/icons.svg#icon-send"></use></svg>
+              <svg class="subscribe__icon" width="24px" height="24px">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
             </button>
           </form>
         </div>

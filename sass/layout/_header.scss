@@ -1,0 +1,57 @@
+.header {
+    border-bottom: 1px solid var(--frame-color);
+
+    &__container {
+            display: flex;
+            align-items: center;
+        }
+}
+
+.header__link {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    display: flex;
+    align-items: center;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+        &:focus {
+            color: var(--brand-color-blue);
+        }
+}
+
+.header__contacts {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+.header__email {
+    margin-right: 50px;
+}
+
+.email-icon {
+    width: 16px;
+    height: 12px;
+    fill: currentColor;
+}
+
+.tel-icon {
+    width: 10px;
+    height: 16px;
+    fill: currentColor;
+}
+
+.header__icon {
+    margin-right: 10px;
+
+    &:hover,
+        &:focus {
+            fill: var(--brand-color-blue);
+        }
+}
+

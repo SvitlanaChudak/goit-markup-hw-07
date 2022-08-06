@@ -1,0 +1,29 @@
+.contacts__address {
+    margin-top: 20px;
+}
+
+.contacts__item:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.contacts__link {
+    font-style: normal;
+    line-height: 1.71;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover, &:focus {
+        color: var(--brand-color-blue);
+    }
+}
+
+.map {
+    color: var(--white-color);
+}
+
+.footer__email,
+.footer__tel {
+    color: var(--footer-contacts-color);
+}
+
